@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+input[type="search"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #e62429;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c41c21;
+}
+
+/* Navigation links */
+h1 a {
+    text-decoration: none;
+    color: #0077cc;
+    margin: 0 10px;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+/* Main content images */
+img {
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Paragraph styling */
+p {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Section headings */
+h2 {
+    font-size: 24px;
+    color: #e62429;
+    margin-top: 40px;
+}
+
+/* Pagination buttons */
+center button {
+    margin: 10px 5px;
+    padding: 6px 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+center button a {
+    color: white;
+    text-decoration: none;
+}
+
+center button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer navigation */
+center h1:last-of-type {
+    margin-top: 40px;
+    font-size: 18px;
+}
